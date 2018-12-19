@@ -1,0 +1,1 @@
+使用 Grunt 构建。构建命令 `build` 调用子任务 `clean` 和 `webpack`。入口文件是 `index.js`。
