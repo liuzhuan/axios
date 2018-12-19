@@ -20,3 +20,10 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
     }
 })
 ```
+
+选项由用户传入的选项和默认选项构成：
+
+```js
+var mergeConfig = require('./mergeConfig')
+config = mergeConfig(this.defaults, config)
+```
